@@ -1,0 +1,196 @@
+{
+  "french_cakes": [
+    {
+      "name": "Tarte Tatin",
+      "recipe": "Tarte Tatin is an upside-down caramelized apple tart made with puff pastry. It is baked in a skillet and then inverted before serving.",
+      "original_place": "Lamotte-Beuvron, France",
+      "picture_url": "https://example.com/tarte_tatin.jpg"
+    },
+    {
+      "name": "Éclair",
+      "recipe": "Éclair is a pastry made of choux dough filled with cream and topped with icing. It is known for its elongated shape.",
+      "original_place": "France",
+      "picture_url": "https://example.com/eclair.jpg"
+    },
+    {
+      "name": "Opera Cake",
+      "recipe": "Opera Cake is a French cake made with layers of almond sponge cake soaked in coffee syrup, layered with ganache and coffee buttercream, and covered in a chocolate glaze.",
+      "original_place": "France",
+      "picture_url": "https://example.com/opera_cake.jpg"
+    },
+    {
+      "name": "Mille-Feuille",
+      "recipe": "Mille-Feuille, also known as a Napoleon, is a pastry made of layers of puff pastry and cream filling, usually flavored with vanilla.",
+      "original_place": "France",
+      "picture_url": "https://example.com/mille_feuille.jpg"
+    },
+    {
+      "name": "Croquembouche",
+      "recipe": "Croquembouche is a tower of cream-filled profiteroles (choux pastry balls) bound together with threads of caramel.",
+      "original_place": "France",
+      "picture_url": "https://example.com/croquembouche.jpg"
+    },
+    {
+      "name": "Galette des Rois",
+      "recipe": "Galette des Rois, or King Cake, is a puff pastry cake traditionally eaten in France on Epiphany. It is often filled with almond cream.",
+      "original_place": "France",
+      "picture_url": "https://example.com/galette_des_rois.jpg"
+    },
+    {
+      "name": "Tarte au Citron",
+      "recipe": "Tarte au Citron is a lemon tart made with a pastry crust and a creamy, tart lemon filling.",
+      "original_place": "France",
+      "picture_url": "https://example.com/tarte_au_citron.jpg"
+    },
+    {
+      "name": "Baba au Rhum",
+      "recipe": "Baba au Rhum is a small yeast cake saturated in rum, usually served with whipped cream or fruit.",
+      "original_place": "France",
+      "picture_url": "https://example.com/baba_au_rhum.jpg"
+    },
+    {
+      "name": "Madeleine",
+      "recipe": "Madeleine is a small, shell-shaped sponge cake. It is a traditional French pastry.",
+      "original_place": "Commercy, France",
+      "picture_url": "https://example.com/madeleine.jpg"
+    },
+    {
+      "name": "Pithivier",
+      "recipe": "Pithivier is a round, enclosed pie filled with almond paste and usually topped with puff pastry.",
+      "original_place": "Pithiviers, France",
+      "picture_url": "https://example.com/pithivier.jpg"
+    },
+    {
+      "name": "Charlotte",
+      "recipe": "Charlotte is a dessert made with ladyfingers or sponge cake that is lined with a mold, filled with fruit and custard, and chilled.",
+      "original_place": "France",
+      "picture_url": "https://example.com/charlotte.jpg"
+    },
+    {
+      "name": "Gateau Basque",
+      "recipe": "Gateau Basque is a traditional cake from the Basque region of France, typically filled with cherry jam or pastry cream.",
+      "original_place": "Basque Country, France",
+      "picture_url": "https://example.com/gateau_basque.jpg"
+    },
+    {
+      "name": "Fraisier",
+      "recipe": "Fraisier is a French strawberry cake made of layers of sponge cake, fresh strawberries, and cream.",
+      "original_place": "France",
+      "picture_url": "https://example.com/fraisier.jpg"
+    },
+    {
+      "name": "Breton Butter Cake (Kouign-Amann)",
+      "recipe": "Kouign-Amann is a round crusty cake, made with bread dough containing layers of butter and sugar folded in, similar in fashion to puff pastry.",
+      "original_place": "Brittany, France",
+      "picture_url": "https://example.com/kouign_amann.jpg"
+    },
+    {
+      "name": "Bûche de Noël",
+      "recipe": "Bûche de Noël, or Yule Log, is a traditional Christmas cake made of sponge cake and buttercream, shaped to resemble a log.",
+      "original_place": "France",
+      "picture_url": "https://example.com/buche_de_noel.jpg"
+    },
+    {
+      "name": "Far Breton",
+      "recipe": "Far Breton is a traditional dessert from Brittany made with a custard-like batter and prunes.",
+      "original_place": "Brittany, France",
+      "picture_url": "https://example.com/far_breton.jpg"
+    },
+    {
+      "name": "Canelé",
+      "recipe": "Canelé is a small French pastry flavored with rum and vanilla with a soft and tender custard center and a dark, thick caramelized crust.",
+      "original_place": "Bordeaux, France",
+      "picture_url": "https://example.com/canele.jpg"
+    },
+    {
+      "name": "Tarte Bourdaloue",
+      "recipe": "Tarte Bourdaloue is a French tart made with pears and almond cream.",
+      "original_place": "France",
+      "picture_url": "https://example.com/tarte_bourdaloue.jpg"
+    },
+    {
+      "name": "Pain Perdu",
+      "recipe": "Pain Perdu, or French toast, is a dish made of sliced bread soaked in eggs and milk, then fried.",
+      "original_place": "France",
+      "picture_url": "https://example.com/pain_perdu.jpg"
+    },
+    {
+      "name": "Quatre-Quarts",
+      "recipe": "Quatre-Quarts, or Pound Cake, is a traditional French cake made with equal parts of butter, sugar, eggs, and flour.",
+      "original_place": "France",
+      "picture_url": "https://example.com/quatre_quarts.jpg"
+    },
+    {
+      "name": "Paris-Brest",
+      "recipe": "Paris-Brest is a French dessert, made of choux pastry and a praline flavored cream.",
+      "original_place": "France",
+      "picture_url": "https://example.com/paris_brest.jpg"
+    },
+    {
+      "name": "Galette Bretonne",
+      "recipe": "Galette Bretonne is a buttery shortbread cookie from Brittany, France, often flavored with a hint of salt.",
+      "original_place": "Brittany, France",
+      "picture_url": "https://example.com/galette_bretonne.jpg"
+    },
+    {
+      "name": "Fondant au Chocolat",
+      "recipe": "Fondant au Chocolat is a rich and dense chocolate cake with a gooey, molten center.",
+      "original_place": "France",
+      "picture_url": "https://example.com/fondant_au_chocolat.jpg"
+    },
+    {
+      "name": "Tarte Normande",
+      "recipe": "Tarte Normande is a French tart made with apples and a custard-like filling.",
+      "original_place": "Normandy, France",
+      "picture_url": "https://example.com/tarte_normande.jpg"
+    },
+    {
+      "name": "Clafoutis",
+      "recipe": "Clafoutis is a French dessert made with cherries arranged in a buttered dish and covered with a thick flan-like batter.",
+      "original_place": "Limousin, France",
+      "picture_url": "https://example.com/clafoutis.jpg"
+    },
+    {
+      "name": "Brioche",
+      "recipe": "Brioche is a buttery, rich, and tender French bread. It is often used to make sweet pastries.",
+      "original_place": "France",
+      "picture_url": "https://example.com/brioche.jpg"
+    },
+    {
+      "name": "Tarte Tropézienne",
+      "recipe": "Tarte Tropézienne is a cream-filled pastry originating from Saint-Tropez, made of a brioche-like bread and a cream filling.",
+      "original_place": "Saint-Tropez, France",
+      "picture_url": "https://example.com/tarte_tropezienne.jpg"
+    },
+    {
+      "name": "Saint-Honoré",
+      "recipe": "Saint-Honoré is a French dessert pastry, named for the French patron saint of bakers and pastry chefs, Saint Honoré.",
+      "original_place": "France",
+      "picture_url": "https://example.com/saint_honore.jpg"
+    },
+    {
+      "name": "Petit Four",
+      "recipe": "Petit Four is a small, bite-sized French dessert. It includes a variety of sweet treats like mini cakes, cookies, and pastries.",
+      "original_place": "France",
+      "picture_url": "https://example.com/petit_four.jpg"
+    },
+    {
+      "name": "Palmier",
+      "recipe": "Palmier, also known as elephant ear, is a French pastry in the shape of a palm leaf or an elephant ear.",
+      "original_place": "France",
+      "picture_url": "https://example.com/palmier.jpg"
+    },
+    {
+      "name": "Dacquoise",
+      "recipe": "Dacquoise is a French dessert cake made with layers of almond and hazelnut meringue and whipped cream or buttercream.",
+      "original_place": "France",
+      "picture_url": "https://example.com/dacquoise.jpg"
+    },
+    {
+      "name": "Baba Chinois",
+      "recipe": "Baba Chinois is a Chinese-inspired version of the classic French Baba au Rhum, featuring flavors like lychee and ginger.",
+      "original_place": "France",
+      "picture_url": "https://example.com/baba_chinois.jpg"
+    }
+  ]
+}

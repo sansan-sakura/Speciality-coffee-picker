@@ -1,0 +1,848 @@
+[
+  {
+    "name": "Ethiopian Sidamo",
+    "region": "Sidamo",
+    "country": "Ethiopia",
+    "flavor_profile": ["Citrus", "Floral", "Tea-like"],
+    "roast_level": "Light",
+    "processing_method": "Washed",
+    "recommendation": "AeroPress"
+  },
+  {
+    "name": "Costa Rican Tarrazú",
+    "region": "Tarrazú",
+    "country": "Costa Rica",
+    "flavor_profile": ["Bright", "Citrus", "Nutty"],
+    "roast_level": "Medium",
+    "processing_method": "Natural",
+    "recommendation": "Pour Over"
+  },
+  {
+    "name": "Colombian Huila",
+    "region": "Huila",
+    "country": "Colombia",
+    "flavor_profile": ["Chocolate", "Nutty", "Balanced"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Washed",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Kenyan AA",
+    "region": "Nyeri",
+    "country": "Kenya",
+    "flavor_profile": ["Bright", "Black Currant", "Wine-like"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Washed",
+    "recommendation": "Filter"
+  },
+  {
+    "name": "Guatemalan Antigua",
+    "region": "Antigua",
+    "country": "Guatemala",
+    "flavor_profile": ["Chocolate", "Spicy", "Full-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Espresso"
+  },
+  {
+    "name": "Panama Geisha",
+    "region": "Boquete",
+    "country": "Panama",
+    "flavor_profile": ["Floral", "Citrus", "Tea-like"],
+    "roast_level": "Light",
+    "processing_method": "Natural",
+    "recommendation": "Chemex"
+  },
+  {
+    "name": "Brazilian Cerrado",
+    "region": "Cerrado",
+    "country": "Brazil",
+    "flavor_profile": ["Nutty", "Chocolate", "Balanced"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Natural",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Hawaiian Kona",
+    "region": "Kona",
+    "country": "Hawaii",
+    "flavor_profile": ["Bright", "Citrus", "Smooth"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Pour Over"
+  },
+  {
+    "name": "Ethiopian Yirgacheffe",
+    "region": "Yirgacheffe",
+    "country": "Ethiopia",
+    "flavor_profile": ["Floral", "Fruity", "Juicy"],
+    "roast_level": "Light",
+    "processing_method": "Washed",
+    "recommendation": "AeroPress"
+  },
+  {
+    "name": "Nicaraguan Jinotega",
+    "region": "Jinotega",
+    "country": "Nicaragua",
+    "flavor_profile": ["Chocolate", "Nutty", "Balanced"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Washed",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Colombian Supremo",
+    "region": "Various",
+    "country": "Colombia",
+    "flavor_profile": ["Balanced", "Nutty", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Drip"
+  },
+  {
+    "name": "Peruvian Chanchamayo",
+    "region": "Chanchamayo",
+    "country": "Peru",
+    "flavor_profile": ["Balanced", "Chocolate", "Nutty"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Espresso"
+  },
+  {
+    "name": "Sumatra Mandheling",
+    "region": "Mandheling",
+    "country": "Indonesia",
+    "flavor_profile": ["Earthy", "Herbal", "Full-bodied"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Wet Hulled",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Tanzanian Peaberry",
+    "region": "Various",
+    "country": "Tanzania",
+    "flavor_profile": ["Bright", "Fruity", "Full-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Pour Over"
+  },
+  {
+    "name": "Rwandan Kivu",
+    "region": "Lake Kivu",
+    "country": "Rwanda",
+    "flavor_profile": ["Bright", "Fruity", "Juicy"],
+    "roast_level": "Light",
+    "processing_method": "Washed",
+    "recommendation": "AeroPress"
+  },
+  {
+    "name": "Mexican Chiapas",
+    "region": "Chiapas",
+    "country": "Mexico",
+    "flavor_profile": ["Nutty", "Chocolate", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Kenyan Peaberry",
+    "region": "Various",
+    "country": "Kenya",
+    "flavor_profile": ["Bright", "Fruity", "Complex"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Washed",
+    "recommendation": "Filter"
+  },
+  {
+    "name": "Guatemalan Huehuetenango",
+    "region": "Huehuetenango",
+    "country": "Guatemala",
+    "flavor_profile": ["Bright", "Fruity", "Complex"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Espresso"
+  },
+  {
+    "name": "Panama Boquete",
+    "region": "Boquete",
+    "country": "Panama",
+    "flavor_profile": ["Bright", "Fruity", "Balanced"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Pour Over"
+  },
+  {
+    "name": "Brazilian Santos",
+    "region": "Santos",
+    "country": "Brazil",
+    "flavor_profile": ["Nutty", "Chocolate", "Medium-bodied"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Natural",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Honduran Marcala",
+    "region": "Marcala",
+    "country": "Honduras",
+    "flavor_profile": ["Balanced", "Nutty", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Drip"
+  },
+  {
+    "name": "Ethiopian Harrar",
+    "region": "Harrar",
+    "country": "Ethiopia",
+    "flavor_profile": ["Earthy", "Spicy", "Full-bodied"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Natural",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Nicaraguan Segovia",
+    "region": "Segovia",
+    "country": "Nicaragua",
+    "flavor_profile": ["Bright", "Fruity", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Espresso"
+  },
+  {
+    "name": "Colombian Medellín",
+    "region": "Medellín",
+    "country": "Colombia",
+    "flavor_profile": ["Bright", "Fruity", "Complex"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Pour Over"
+  },
+  {
+    "name": "Peruvian Amazonas",
+    "region": "Amazonas",
+    "country": "Peru",
+    "flavor_profile": ["Balanced", "Chocolate", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "AeroPress"
+  },
+  {
+    "name": "Sumatra Gayo Mountain",
+    "region": "Gayo Mountain",
+    "country": "Indonesia",
+    "flavor_profile": ["Earthy", "Herbal", "Full-bodied"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Wet Hulled",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Tanzanian Peaberry",
+    "region": "Various",
+    "country": "Tanzania",
+    "flavor_profile": ["Bright", "Fruity", "Full-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Pour Over"
+  },
+  {
+    "name": "Rwandan Kivu",
+    "region": "Lake Kivu",
+    "country": "Rwanda",
+    "flavor_profile": ["Bright", "Fruity", "Juicy"],
+    "roast_level": "Light",
+    "processing_method": "Washed",
+    "recommendation": "AeroPress"
+  },
+  {
+    "name": "Mexican Chiapas",
+    "region": "Chiapas",
+    "country": "Mexico",
+    "flavor_profile": ["Nutty", "Chocolate", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Kenyan Peaberry",
+    "region": "Various",
+    "country": "Kenya",
+    "flavor_profile": ["Bright", "Fruity", "Complex"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Washed",
+    "recommendation": "Filter"
+  },
+  {
+    "name": "Guatemalan Huehuetenango",
+    "region": "Huehuetenango",
+    "country": "Guatemala",
+    "flavor_profile": ["Bright", "Fruity", "Complex"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Espresso"
+  },
+  {
+    "name": "Panama Boquete",
+    "region": "Boquete",
+    "country": "Panama",
+    "flavor_profile": ["Bright", "Fruity", "Balanced"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Pour Over"
+  },
+  {
+    "name": "Brazilian Santos",
+    "region": "Santos",
+    "country": "Brazil",
+    "flavor_profile": ["Nutty", "Chocolate", "Medium-bodied"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Natural",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Honduran Marcala",
+    "region": "Marcala",
+    "country": "Honduras",
+    "flavor_profile": ["Balanced", "Nutty", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Drip"
+  },
+  {
+    "name": "Ethiopian Harrar",
+    "region": "Harrar",
+    "country": "Ethiopia",
+    "flavor_profile": ["Earthy", "Spicy", "Full-bodied"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Natural",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Nicaraguan Segovia",
+    "region": "Segovia",
+    "country": "Nicaragua",
+    "flavor_profile": ["Bright", "Fruity", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Espresso"
+  },
+  {
+    "name": "Colombian Medellín",
+    "region": "Medellín",
+    "country": "Colombia",
+    "flavor_profile": ["Bright", "Fruity", "Complex"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Pour Over"
+  },
+  {
+    "name": "Peruvian Amazonas",
+    "region": "Amazonas",
+    "country": "Peru",
+    "flavor_profile": ["Balanced", "Chocolate", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "AeroPress"
+  },
+  {
+    "name": "Sumatra Gayo Mountain",
+    "region": "Gayo Mountain",
+    "country": "Indonesia",
+    "flavor_profile": ["Earthy", "Herbal", "Full-bodied"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Wet Hulled",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Tanzanian Peaberry",
+    "region": "Various",
+    "country": "Tanzania",
+    "flavor_profile": ["Bright", "Fruity", "Full-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Pour Over"
+  },
+  {
+    "name": "Rwandan Kivu",
+    "region": "Lake Kivu",
+    "country": "Rwanda",
+    "flavor_profile": ["Bright", "Fruity", "Juicy"],
+    "roast_level": "Light",
+    "processing_method": "Washed",
+    "recommendation": "AeroPress"
+  },
+  {
+    "name": "Mexican Chiapas",
+    "region": "Chiapas",
+    "country": "Mexico",
+    "flavor_profile": ["Nutty", "Chocolate", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Kenyan Peaberry",
+    "region": "Various",
+    "country": "Kenya",
+    "flavor_profile": ["Bright", "Fruity", "Complex"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Washed",
+    "recommendation": "Filter"
+  },
+  {
+    "name": "Guatemalan Huehuetenango",
+    "region": "Huehuetenango",
+    "country": "Guatemala",
+    "flavor_profile": ["Bright", "Fruity", "Complex"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Espresso"
+  },
+  {
+    "name": "Panama Boquete",
+    "region": "Boquete",
+    "country": "Panama",
+    "flavor_profile": ["Bright", "Fruity", "Balanced"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Pour Over"
+  },
+  {
+    "name": "Brazilian Santos",
+    "region": "Santos",
+    "country": "Brazil",
+    "flavor_profile": ["Nutty", "Chocolate", "Medium-bodied"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Natural",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Honduran Marcala",
+    "region": "Marcala",
+    "country": "Honduras",
+    "flavor_profile": ["Balanced", "Nutty", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Drip"
+  },
+  {
+    "name": "Ethiopian Harrar",
+    "region": "Harrar",
+    "country": "Ethiopia",
+    "flavor_profile": ["Earthy", "Spicy", "Full-bodied"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Natural",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Nicaraguan Segovia",
+    "region": "Segovia",
+    "country": "Nicaragua",
+    "flavor_profile": ["Bright", "Fruity", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Espresso"
+  },
+  {
+    "name": "Colombian Medellín",
+    "region": "Medellín",
+    "country": "Colombia",
+    "flavor_profile": ["Bright", "Fruity", "Complex"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Pour Over"
+  },
+  {
+    "name": "Peruvian Amazonas",
+    "region": "Amazonas",
+    "country": "Peru",
+    "flavor_profile": ["Balanced", "Chocolate", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "AeroPress"
+  },
+  {
+    "name": "Sumatra Gayo Mountain",
+    "region": "Gayo Mountain",
+    "country": "Indonesia",
+    "flavor_profile": ["Earthy", "Herbal", "Full-bodied"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Wet Hulled",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Tanzanian Peaberry",
+    "region": "Various",
+    "country": "Tanzania",
+    "flavor_profile": ["Bright", "Fruity", "Full-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Pour Over"
+  },
+  {
+    "name": "Rwandan Kivu",
+    "region": "Lake Kivu",
+    "country": "Rwanda",
+    "flavor_profile": ["Bright", "Fruity", "Juicy"],
+    "roast_level": "Light",
+    "processing_method": "Washed",
+    "recommendation": "AeroPress"
+  },
+  {
+    "name": "Mexican Chiapas",
+    "region": "Chiapas",
+    "country": "Mexico",
+    "flavor_profile": ["Nutty", "Chocolate", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Kenyan Peaberry",
+    "region": "Various",
+    "country": "Kenya",
+    "flavor_profile": ["Bright", "Fruity", "Complex"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Washed",
+    "recommendation": "Filter"
+  },
+  {
+    "name": "Guatemalan Huehuetenango",
+    "region": "Huehuetenango",
+    "country": "Guatemala",
+    "flavor_profile": ["Bright", "Fruity", "Complex"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Espresso"
+  },
+  {
+    "name": "Panama Boquete",
+    "region": "Boquete",
+    "country": "Panama",
+    "flavor_profile": ["Bright", "Fruity", "Balanced"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Pour Over"
+  },
+  {
+    "name": "Brazilian Santos",
+    "region": "Santos",
+    "country": "Brazil",
+    "flavor_profile": ["Nutty", "Chocolate", "Medium-bodied"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Natural",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Honduran Marcala",
+    "region": "Marcala",
+    "country": "Honduras",
+    "flavor_profile": ["Balanced", "Nutty", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Drip"
+  },
+  {
+    "name": "Ethiopian Harrar",
+    "region": "Harrar",
+    "country": "Ethiopia",
+    "flavor_profile": ["Earthy", "Spicy", "Full-bodied"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Natural",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Nicaraguan Segovia",
+    "region": "Segovia",
+    "country": "Nicaragua",
+    "flavor_profile": ["Bright", "Fruity", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Espresso"
+  },
+  {
+    "name": "Colombian Medellín",
+    "region": "Medellín",
+    "country": "Colombia",
+    "flavor_profile": ["Bright", "Fruity", "Complex"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Pour Over"
+  },
+  {
+    "name": "Peruvian Amazonas",
+    "region": "Amazonas",
+    "country": "Peru",
+    "flavor_profile": ["Balanced", "Chocolate", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "AeroPress"
+  },
+  {
+    "name": "Sumatra Gayo Mountain",
+    "region": "Gayo Mountain",
+    "country": "Indonesia",
+    "flavor_profile": ["Earthy", "Herbal", "Full-bodied"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Wet Hulled",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Tanzanian Peaberry",
+    "region": "Various",
+    "country": "Tanzania",
+    "flavor_profile": ["Bright", "Fruity", "Full-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Pour Over"
+  },
+  {
+    "name": "Rwandan Kivu",
+    "region": "Lake Kivu",
+    "country": "Rwanda",
+    "flavor_profile": ["Bright", "Fruity", "Juicy"],
+    "roast_level": "Light",
+    "processing_method": "Washed",
+    "recommendation": "AeroPress"
+  },
+  {
+    "name": "Mexican Chiapas",
+    "region": "Chiapas",
+    "country": "Mexico",
+    "flavor_profile": ["Nutty", "Chocolate", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Kenyan Peaberry",
+    "region": "Various",
+    "country": "Kenya",
+    "flavor_profile": ["Bright", "Fruity", "Complex"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Washed",
+    "recommendation": "Filter"
+  },
+  {
+    "name": "Guatemalan Huehuetenango",
+    "region": "Huehuetenango",
+    "country": "Guatemala",
+    "flavor_profile": ["Bright", "Fruity", "Complex"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Espresso"
+  },
+  {
+    "name": "Panama Boquete",
+    "region": "Boquete",
+    "country": "Panama",
+    "flavor_profile": ["Bright", "Fruity", "Balanced"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Pour Over"
+  },
+  {
+    "name": "Brazilian Santos",
+    "region": "Santos",
+    "country": "Brazil",
+    "flavor_profile": ["Nutty", "Chocolate", "Medium-bodied"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Natural",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Honduran Marcala",
+    "region": "Marcala",
+    "country": "Honduras",
+    "flavor_profile": ["Balanced", "Nutty", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Drip"
+  },
+  {
+    "name": "Ethiopian Harrar",
+    "region": "Harrar",
+    "country": "Ethiopia",
+    "flavor_profile": ["Earthy", "Spicy", "Full-bodied"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Natural",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Nicaraguan Segovia",
+    "region": "Segovia",
+    "country": "Nicaragua",
+    "flavor_profile": ["Bright", "Fruity", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Espresso"
+  },
+  {
+    "name": "Colombian Medellín",
+    "region": "Medellín",
+    "country": "Colombia",
+    "flavor_profile": ["Bright", "Fruity", "Complex"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Pour Over"
+  },
+  {
+    "name": "Peruvian Amazonas",
+    "region": "Amazonas",
+    "country": "Peru",
+    "flavor_profile": ["Balanced", "Chocolate", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "AeroPress"
+  },
+  {
+    "name": "Sumatra Gayo Mountain",
+    "region": "Gayo Mountain",
+    "country": "Indonesia",
+    "flavor_profile": ["Earthy", "Herbal", "Full-bodied"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Wet Hulled",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Tanzanian Peaberry",
+    "region": "Various",
+    "country": "Tanzania",
+    "flavor_profile": ["Bright", "Fruity", "Full-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Pour Over"
+  },
+  {
+    "name": "Rwandan Kivu",
+    "region": "Lake Kivu",
+    "country": "Rwanda",
+    "flavor_profile": ["Bright", "Fruity", "Juicy"],
+    "roast_level": "Light",
+    "processing_method": "Washed",
+    "recommendation": "AeroPress"
+  },
+  {
+    "name": "Mexican Chiapas",
+    "region": "Chiapas",
+    "country": "Mexico",
+    "flavor_profile": ["Nutty", "Chocolate", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Kenyan Peaberry",
+    "region": "Various",
+    "country": "Kenya",
+    "flavor_profile": ["Bright", "Fruity", "Complex"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Washed",
+    "recommendation": "Filter"
+  },
+  {
+    "name": "Guatemalan Huehuetenango",
+    "region": "Huehuetenango",
+    "country": "Guatemala",
+    "flavor_profile": ["Bright", "Fruity", "Complex"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Espresso"
+  },
+  {
+    "name": "Panama Boquete",
+    "region": "Boquete",
+    "country": "Panama",
+    "flavor_profile": ["Bright", "Fruity", "Balanced"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Pour Over"
+  },
+  {
+    "name": "Brazilian Santos",
+    "region": "Santos",
+    "country": "Brazil",
+    "flavor_profile": ["Nutty", "Chocolate", "Medium-bodied"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Natural",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Honduran Marcala",
+    "region": "Marcala",
+    "country": "Honduras",
+    "flavor_profile": ["Balanced", "Nutty", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Drip"
+  },
+  {
+    "name": "Ethiopian Harrar",
+    "region": "Harrar",
+    "country": "Ethiopia",
+    "flavor_profile": ["Earthy", "Spicy", "Full-bodied"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Natural",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Nicaraguan Segovia",
+    "region": "Segovia",
+    "country": "Nicaragua",
+    "flavor_profile": ["Bright", "Fruity", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Espresso"
+  },
+  {
+    "name": "Colombian Medellín",
+    "region": "Medellín",
+    "country": "Colombia",
+    "flavor_profile": ["Bright", "Fruity", "Complex"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Pour Over"
+  },
+  {
+    "name": "Peruvian Amazonas",
+    "region": "Amazonas",
+    "country": "Peru",
+    "flavor_profile": ["Balanced", "Chocolate", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "AeroPress"
+  },
+  {
+    "name": "Sumatra Gayo Mountain",
+    "region": "Gayo Mountain",
+    "country": "Indonesia",
+    "flavor_profile": ["Earthy", "Herbal", "Full-bodied"],
+    "roast_level": "Medium-Dark",
+    "processing_method": "Wet Hulled",
+    "recommendation": "French Press"
+  },
+  {
+    "name": "Tanzanian Peaberry",
+    "region": "Various",
+    "country": "Tanzania",
+    "flavor_profile": ["Bright", "Fruity", "Full-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "Pour Over"
+  },
+  {
+    "name": "Rwandan Kivu",
+    "region": "Lake Kivu",
+    "country": "Rwanda",
+    "flavor_profile": ["Bright", "Fruity", "Juicy"],
+    "roast_level": "Light",
+    "processing_method": "Washed",
+    "recommendation": "AeroPress"
+  },
+  {
+    "name": "Mexican Chiapas",
+    "region": "Chiapas",
+    "country": "Mexico",
+    "flavor_profile": ["Nutty", "Chocolate", "Medium-bodied"],
+    "roast_level": "Medium",
+    "processing_method": "Washed",
+    "recommendation": "French Press"
+  }
+]

@@ -1,0 +1,201 @@
+{
+    "artists": [
+      {
+        "name": "Leonardo da Vinci",
+        "museum": "Louvre Museum",
+        "url": "https://www.louvre.fr/en/oeuvre-notices/mona-lisa-portrait-lisa-gherardini-wife-francesco-del-giocondo",
+        "information": "Leonardo da Vinci was an Italian polymath of the Renaissance. He was a painter, sculptor, architect, scientist, mathematician, and writer.",
+        "origin_country": "Italy",
+        "favorite_food": "Minestrone Soup"
+      },
+      {
+        "name": "Vincent van Gogh",
+        "museum": "Van Gogh Museum",
+        "url": "https://www.vangoghmuseum.nl/en/collection/s0012V1962",
+        "information": "Vincent van Gogh was a Dutch post-impressionist painter who is among the most famous and influential figures in the history of Western art.",
+        "origin_country": "Netherlands",
+        "favorite_food": "Roasted Chestnuts"
+      },
+      {
+        "name": "Pablo Picasso",
+        "museum": "Picasso Museum",
+        "url": "https://www.museupicasso.bcn.cat/en/obras/woman-barret-colette",
+        "information": "Pablo Picasso was a Spanish painter, sculptor, printmaker, ceramicist, and stage designer who spent most of his adult life in France.",
+        "origin_country": "Spain",
+        "favorite_food": "Escudella i Carn d'Olla"
+      },
+      {
+        "name": "Claude Monet",
+        "museum": "Musée d'Orsay",
+        "url": "https://www.musee-orsay.fr/en/collections/works-in-focus/search/commentaire/commentaire_id/water-lilies-25730.html",
+        "information": "Claude Monet was a French painter, a founder of French Impressionist painting, and the most consistent and prolific practitioner of the movement's philosophy.",
+        "origin_country": "France",
+        "favorite_food": "Bouillabaisse"
+      },
+      {
+        "name": "Frida Kahlo",
+        "museum": "Frida Kahlo Museum",
+        "url": "http://www.museofridakahlo.org.mx/en/the-blue-house/the-collection/other/cuadro/119/self-portrait-with-cropped-hair/",
+        "information": "Frida Kahlo was a Mexican painter known for her many portraits, self-portraits, and works inspired by the nature and artifacts of Mexico.",
+        "origin_country": "Mexico",
+        "favorite_food": "Chiles en Nogada"
+      },
+      {
+        "name": "Rembrandt van Rijn",
+        "museum": "Rijksmuseum",
+        "url": "https://www.rijksmuseum.nl/en/masterpieces/rembrandt-van-rijn/self-portrait-as-the-apostle-paul-1629",
+        "information": "Rembrandt van Rijn was a Dutch painter and etcher. He is generally considered one of the most important and influential artists in the history of art.",
+        "origin_country": "Netherlands",
+        "favorite_food": "Haring"
+      },
+      {
+        "name": "Georgia O'Keeffe",
+        "museum": "Georgia O'Keeffe Museum",
+        "url": "https://www.okeeffemuseum.org/art/artwork-view/34",
+        "information": "Georgia O'Keeffe was an American artist. She was known for her paintings of enlarged flowers, New York skyscrapers, and New Mexico landscapes.",
+        "origin_country": "United States",
+        "favorite_food": "Green Chili Stew"
+      },
+      {
+        "name": "Salvador Dali",
+        "museum": "The Dali Theatre-Museum",
+        "url": "https://www.salvador-dali.org/en/artwork/artwork-catalogue/415/visage-femme-292-x-92-cm-sans-la-cadre/",
+        "information": "Salvador Dalí was a Spanish surrealist painter known for his striking and bizarre images. He was also a sculptor, filmmaker, and writer.",
+        "origin_country": "Spain",
+        "favorite_food": "Sea Urchins"
+      },
+      {
+        "name": "Michelangelo Buonarroti",
+        "museum": "Sistine Chapel",
+        "url": "http://www.museivaticani.va/content/museivaticani/en/collezioni/musei/cappella-sistina/catalogo/pavimenti-a-mosaico/centro/abraham-receive-the-three-angels-and-the-circumcision-of-the.html",
+        "information": "Michelangelo di Lodovico Buonarroti Simoni was an Italian sculptor, painter, architect, poet, and engineer of the High Renaissance.",
+        "origin_country": "Italy",
+        "favorite_food": "Risotto"
+      },
+      {
+        "name": "Camille Pissarro",
+        "museum": "Musee d'Orsay",
+        "url": "https://www.musee-orsay.fr/en/collections/works-in-focus/painting/commentaire_id/monet-and-pissarro-17364.html",
+        "information": "Jacob Abraham Camille Pissarro was a Danish-French Impressionist and Neo-Impressionist painter born on the island of St Thomas (now in the US Virgin Islands, but then in the Danish West Indies).",
+        "origin_country": "Denmark",
+        "favorite_food": "Smørrebrød"
+      },
+      {
+        "name": "Gustav Klimt",
+        "museum": "Belvedere Palace",
+        "url": "https://www.belvedere.at/en/gustav-klimt-the-kiss",
+        "information": "Gustav Klimt was an Austrian symbolist painter and one of the most prominent members of the Vienna Secession movement.",
+        "origin_country": "Austria",
+        "favorite_food": "Wiener Schnitzel"
+      },
+      {
+        "name": "Diego Rivera",
+        "museum": "Palacio de Bellas Artes",
+        "url": "https://www.palacio.bellasartes.gob.mx/sitios/pba/files/Diego-Rivera-Retratodel-Artista-en-su-Juventud.jpg",
+        "information": "Diego María de la Concepción Juan Nepomuceno Estanislao de la Rivera y Barrientos Acosta y Rodríguez, known as Diego Rivera, was a prominent Mexican painter.",
+        "origin_country": "Mexico",
+        "favorite_food": "Chiles Rellenos"
+      },
+      {"name": "Edvard Munch",
+"museum": "Munch Museum",
+"url": "https://munchmuseet.no/en/the-collection/bygg-holmboes-1914-1916-2",
+"information": "Edvard Munch was a Norwegian painter and printmaker. His best-known work, The Scream (1893), has become an iconic image of existential angst.",
+"origin_country": "Norway",
+"favorite_food": "Lutefisk"
+},
+{
+"name": "Johannes Vermeer",
+"museum": "Rijksmuseum",
+"url": "https://www.rijksmuseum.nl/en/collection/SK-C-5",
+"information": "Johannes Vermeer was a Dutch Baroque Period painter who specialized in domestic interior scenes of middle-class life.",
+"origin_country": "Netherlands",
+"favorite_food": "Hutspot"
+},
+{
+"name": "Auguste Rodin",
+"museum": "Musée Rodin",
+"url": "https://www.musee-rodin.fr/en/collections/sculptures/balzac",
+"information": "François Auguste René Rodin was a French sculptor generally considered the founder of modern sculpture.",
+"origin_country": "France",
+"favorite_food": "Coq au Vin"
+},
+{
+"name": "Andy Warhol",
+"museum": "Andy Warhol Museum",
+"url": "https://www.warhol.org/collection/overview/",
+"information": "Andy Warhol was an American artist, director, and producer who was a leading figure in the visual art movement known as pop art.",
+"origin_country": "United States",
+"favorite_food": "Campbell's Tomato Soup"
+},
+{
+"name": "Titian",
+"museum": "Gallerie dell'Accademia",
+"url": "https://www.gallerieaccademia.it/en/venetian-painting/titian-portrait-venetian-nobleman",
+"information": "Tiziano Vecelli or Tiziano Vecellio, known in English as Titian, was an Italian painter, the most important member of the 16th-century Venetian school.",
+"origin_country": "Italy",
+"favorite_food": "Polenta"
+},
+{
+"name": "Marc Chagall",
+"museum": "Marc Chagall National Museum",
+"url": "https://en.musees-nationaux-alpesmaritimes.fr/national-museum-marc-chagall",
+"information": "Marc Zakharovich Chagall was a Russian-French artist. An early modernist, he was associated with several major artistic styles.",
+"origin_country": "Russia",
+"favorite_food": "Borscht"
+},
+{
+"name": "Mary Cassatt",
+"museum": "National Gallery of Art",
+"url": "https://www.nga.gov/collection/artist-info.1267.html",
+"information": "Mary Stevenson Cassatt was an American painter and printmaker. She was born in Allegheny City, Pennsylvania (now part of Pittsburgh).",
+"origin_country": "United States",
+"favorite_food": "Chicken Fricassee"
+},
+{
+"name": "Diego Velázquez",
+"museum": "Museo del Prado",
+"url": "https://www.museodelprado.es/en/the-collection/art-work/the-fountain-of-mars/c976f20d-e185-408e-9d69-1a22017e032c",
+"information": "Diego Rodríguez de Silva y Velázquez was a Spanish painter, the leading artist in the court of King Philip IV, and one of the most important painters of the Spanish Golden Age.",
+"origin_country": "Spain",
+"favorite_food": "Gazpacho"
+},
+{
+"name": "Egon Schiele",
+"museum": "Leopold Museum",
+"url": "https://www.leopoldmuseum.org/en/leopoldcollection/masterpieces/69",
+"information": "Egon Schiele was an Austrian painter. A protégé of Gustav Klimt, Schiele was a major figurative painter of the early 20th century.",
+"origin_country": "Austria",
+"favorite_food": "Wiener Wurstel"
+},
+{
+"name": "Grant Wood",
+"museum": "Art Institute of Chicago",
+"url": "https://www.artic.edu/artworks/27631/american-gothic",
+"information": "Grant DeVolson Wood was an American painter best known for his paintings depicting the rural American Midwest.",
+"origin_country": "United States",
+"favorite_food": "Corn on the Cob"
+},
+{
+"name": "Amedeo Modigliani",
+"museum": "Tate Modern",
+"url": "https://www.tate.org.uk/art/artists/amedeo-modigliani-1654",
+"information": "Amedeo Clemente Modigliani was an Italian Jewish painter and sculptor who worked mainly in France.",
+"origin_country": "Italy",
+"favorite_food": "Bouillabaisse"
+},
+{
+"name": "Joan Miró",
+"museum": "Miro Foundation",
+"url": "https://www.fmirobcn.org/en/artworks",
+"information": "Joan Miró i Ferrà was a Spanish painter, sculptor, and ceramicist born in Barcelona. A museum dedicated to his work, the Fundació Joan Miró, was established in his native city of Barcelona in 1975.",
+"origin_country": "Spain",
+"favorite_food": "Escudella i Carn d'Olla"
+},
+{
+"name": "Paul Cézanne",
+"museum": "Musée d'Orsay",
+"url": "https://www.musee-orsay.fr/en/collections/works-in-focus/search/commentaire/commentaire_id/great-pine-at-jas-de-bouffan-10470.html",
+"information": "Paul Cézanne was a French artist and Post-Impressionist painter whose work laid the foundations of the transition from the 19th-century conception of artistic endeavor to a new and radically different world of art in the 20th century.",
+"origin_country": "France",
+"favorite_food": "Ratatouille"
+}]

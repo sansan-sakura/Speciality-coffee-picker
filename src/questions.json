@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "h2": "Now, we want to ask your email address 🐠",
+    "p": "So we can send you a result to you later 🦄",
+    "inputType": "email",
+    "fieldName": "email",
+    "answerChoice": {
+      "choice": false
+    }
+  },
+  {
+    "id": 2,
+    "h2": "Let me ask your name first 📸 ",
+    "p": "In order to pick up the best coffee for you, we need your name 🌝",
+    "inputType": "text",
+    "fieldName": "name",
+    "answerChoice": {
+      "choice": false
+    }
+  },
+  {
+    "id": 3,
+    "h2": "How much do you like coffee?",
+    "p": "Coffee makes the life perfect ✨",
+    "inputType": "range",
+    "fieldName": "howOften",
+    "answerChoice": {
+      "choice": true,
+      "min": 0,
+      "max": 20
+    }
+  },
+  {
+    "id": 4,
+    "h2": "How about your favorite flavor? 🌸",
+    "p": "Coffee is not just a drink!!",
+    "inputType": "checkbox",
+    "fieldName": "flavor",
+    "answerChoice": {
+      "choice": true,
+      "answers": [
+        "Nutty",
+        "Fruity",
+        "Chocolate",
+        "Full-bodied",
+        "Bright",
+        "Earthy",
+        "Balanced",
+        "Spicy",
+        "Herbal",
+        "Floral",
+        "Juicy",
+        "Citrus",
+        "Black Currant"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "h2": "Which method do you like to process your coffee beans? 🐥",
+    "p": "It is interesting how different tast you get with different methods of process. ☕️",
+    "inputType": "select",
+    "fieldName": "method",
+    "answerChoice": {
+      "choice": true,
+      "answers": ["Washed", "Natural"]
+    }
+  },
+  {
+    "id": 6,
+    "h2": "Which country would you like your coffee beans to be grown?",
+    "p": "Please pick up a country below",
+    "inputType": "select",
+    "fieldName": "region",
+    "answerChoice": {
+      "choice": true,
+      "answers": [
+        "Costa Rica",
+        "Hawaii",
+        "Panama",
+        "Nicaragua",
+        "Colombia",
+        "Peru",
+        "Indonesia",
+        "Tanzania",
+        "Rwanda",
+        "Mexico",
+        "Kenya",
+        "Guatemala",
+        "Ethiopia",
+        "Brazil",
+        "Honduras"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "h2": "How do you like to ake your coffee? 🌞",
+    "p": "ach beans has the best way to make a delicious cup of joe",
+    "inputType": "radio",
+    "fieldName": "recommendation",
+    "answerChoice": {
+      "choice": true,
+      "answers": ["Drip", "Pour Over", "V60", "AeroPress", "French Press", "Expresso", "Filter"]
+    }
+  },
+  {
+    "id": 8,
+    "h2": "Let's ask your favorite roast level",
+    "p": "If you have never tried light roasted coffee, try it",
+    "inputType": "radio",
+    "fieldName": "roast",
+    "answerChoice": {
+      "choice": true,
+      "answers": ["light", "Light-Medium", "Medium", "Medium-Dark", "Dark"]
+    }
+  }
+]

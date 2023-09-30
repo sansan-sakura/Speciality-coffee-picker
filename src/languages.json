@@ -1,0 +1,135 @@
+{
+  "learning_sources": [
+    {
+      "name": "Duolingo",
+      "description": "Duolingo offers a free and interactive platform for learning German through games, quizzes, and exercises.",
+      "url": "https://www.duolingo.com/course/de/en/Learn-German-Online"
+    },
+    {
+      "name": "Memrise",
+      "description": "Memrise provides a range of courses for learning German, emphasizing vocabulary and phrases.",
+      "url": "https://www.memrise.com/courses/english/german/"
+    },
+    {
+      "name": "Deutsche Welle",
+      "description": "Deutsche Welle offers free online courses and resources for learning German, including video lessons and articles.",
+      "url": "https://www.dw.com/en/learn-german/s-2469"
+    },
+    {
+      "name": "Goethe-Institut",
+      "description": "The Goethe-Institut offers comprehensive courses and resources for learning German, both online and in-person.",
+      "url": "https://www.goethe.de/en/index.html"
+    },
+    {
+      "name": "BBC Languages - German",
+      "description": "BBC Languages provides free resources, audio, and video lessons for learning German.",
+      "url": "http://www.bbc.co.uk/languages/german/"
+    },
+    {
+      "name": "Langenscheidt",
+      "description": "Langenscheidt offers a variety of German learning materials, including textbooks, dictionaries, and online courses.",
+      "url": "https://www.langenscheidt.com/"
+    },
+    {
+      "name": "Babbel",
+      "description": "Babbel provides structured lessons with a focus on conversation and real-life scenarios for learning German.",
+      "url": "https://www.babbel.com/learn-german-online"
+    },
+    {
+      "name": "Rosetta Stone",
+      "description": "Rosetta Stone offers language learning software, including courses for learning German.",
+      "url": "https://www.rosettastone.com/learn-german/"
+    }
+  ]
+}
+
+{
+    "learning_sources": [
+      {
+        "name": "Duolingo",
+        "description": "Duolingo offers a free and interactive platform for learning English through games, quizzes, and exercises.",
+        "url": "https://www.duolingo.com/course/en/en/Learn-English-Online"
+      },
+      {
+        "name": "Memrise",
+        "description": "Memrise provides a range of courses for learning English, emphasizing vocabulary and phrases.",
+        "url": "https://www.memrise.com/courses/english/"
+      },
+      {
+        "name": "BBC Learning English",
+        "description": "BBC Learning English provides free audio, video, and text-based resources for learning English.",
+        "url": "https://www.bbc.co.uk/learningenglish"
+      },
+      {
+        "name": "Cambridge English",
+        "description": "Cambridge English offers a wide range of resources for learning English, including practice tests and study materials.",
+        "url": "https://www.cambridgeenglish.org/"
+      },
+      {
+        "name": "Oxford Online English",
+        "description": "Oxford Online English offers video lessons and practice exercises for improving English language skills.",
+        "url": "https://www.oxfordonlineenglish.com/"
+      },
+      {
+        "name": "EnglishClub",
+        "description": "EnglishClub provides free resources for learning English, including grammar lessons, quizzes, and vocabulary.",
+        "url": "https://www.englishclub.com/"
+      },
+      {
+        "name": "ESL Gold",
+        "description": "ESL Gold offers a variety of resources for learning English, including lessons, exercises, and podcasts.",
+        "url": "https://www.eslgold.com/"
+      },
+      {
+        "name": "British Council Learn English",
+        "description": "The British Council offers a range of free online resources for learning English, including courses, games, and activities.",
+        "url": "https://learnenglish.britishcouncil.org/"
+      }
+    ]
+  }
+  
+  {
+    "learning_sources": [
+      {
+        "name": "Duolingo",
+        "description": "Duolingo offers a free and interactive platform for learning Swedish through games, quizzes, and exercises.",
+        "url": "https://www.duolingo.com/course/sv/en/Learn-Swedish-Online"
+      },
+      {
+        "name": "Memrise",
+        "description": "Memrise provides a range of courses for learning Swedish, emphasizing vocabulary and phrases.",
+        "url": "https://www.memrise.com/courses/english/swedish/"
+      },
+      {
+        "name": "SwedishPod101",
+        "description": "SwedishPod101 offers audio and video lessons for learning Swedish, along with cultural insights.",
+        "url": "https://www.swedishpod101.com/"
+      },
+      {
+        "name": "Babbel",
+        "description": "Babbel provides structured lessons with a focus on conversation and real-life scenarios for learning Swedish.",
+        "url": "https://www.babbel.com/learn-swedish-online"
+      },
+      {
+        "name": "Svenska Institutet",
+        "description": "The Swedish Institute offers free courses for learning Swedish, including grammar and pronunciation lessons.",
+        "url": "https://www.svenskakurser.com/"
+      },
+      {
+        "name": "Folkuniversitetet",
+        "description": "Folkuniversitetet offers both online and in-person Swedish courses at various levels.",
+        "url": "https://www.folkuniversitetet.se/svenska-som-andrasprak/"
+      },
+      {
+        "name": "The Local Sweden",
+        "description": "The Local provides articles, news, and resources for learning Swedish and understanding Swedish culture.",
+        "url": "https://www.thelocal.se/learn-swedish/"
+      },
+      {
+        "name": "Rivstart",
+        "description": "The Rivstart series offers comprehensive textbooks and exercises for learning Swedish.",
+        "url": "https://www.nok.se/bocker/ordlista/rivstart/"
+      }
+    ]
+  }
+  
