@@ -35,7 +35,7 @@
     "id": 4,
     "h2": "How about your favorite flavor? 🌸",
     "p": "Coffee is not just a drink!!",
-    "inputType": "checkbox",
+    "inputType": "radio",
     "fieldName": "flavor",
     "answerChoice": {
       "choice": true,

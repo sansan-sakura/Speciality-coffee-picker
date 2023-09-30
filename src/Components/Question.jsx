@@ -1,26 +1,18 @@
 import { useEffect, useState } from "react";
+import { InputField } from "./InputField/InputField";
 import data from "../questions.json";
-export const Question = () => {
-  const [askFormat, setAskFormat] = useState({
-    heading: "",
-    text: "",
-  });
-  const handleNextFormat = () => {
-    setAskFormat(() => ({
-      heading: data[0].h2,
-      text: data[0].p,
-    }));
-  };
+export const Question = ({ value, onUserInput, currentStep }) => {
+  const [askFormat, setAskFormat] = useState({});
 
   useEffect(() => {
-    handleNextFormat();
-  }, []);
+    setAskFormat(() => ({ ...data[currentStep - 1] }));
+  }, [currentStep]);
 
-  console.log(data);
   return (
     <>
-      <h2>{askFormat.heading}</h2>
-      <p>{askFormat.text}</p>
+      <h2>{askFormat.h2}</h2>
+      <p>{askFormat.p}</p>
+      <InputField nextFormat={askFormat} value={value} onUserInput={onUserInput} />
     </>
   );
 };

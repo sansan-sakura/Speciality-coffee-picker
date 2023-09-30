@@ -1,13 +1,6 @@
 import { useState } from "react";
-import { Name } from "../Name/Name";
-import { Email } from "../Email/Email";
-import { RoastLevel } from "../RoastLevel/RoastLevel";
-import { Method } from "../Method/Method";
-import { Recommendation } from "../Recomendation/Recommendation";
-import { Region } from "../Region/Region";
-import { Flavor } from "../Flavor/Flavor";
+
 import { Footer } from "../Footer/Footer";
-import { Howoften } from "../HowOften/HowOften";
 import { Question } from "../Question";
 
 export function MainForm() {
@@ -21,25 +14,33 @@ export function MainForm() {
     flavor: "",
     howOften: "",
   });
+  const [currentStep, setCurrentStep] = useState(1);
+  const nextStep = () => {
+    currentStep < 8 && setCurrentStep((c) => c + 1);
+  };
+
+  const prevStep = () => {
+    currentStep > 1 && setCurrentStep((c) => c - 1);
+  };
 
   const handleUserInput = (key, value) => {
     setUserInput((prev) => ({ ...prev, [key]: value }));
+    console.log(userInput);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
   };
   return (
     <>
       <header>
         <h1>Speciality Coffee Picker</h1>
       </header>
-      <Question onUserInput={handleUserInput} value={userInput} />
-      <form>
-        <Name onUserInput={handleUserInput} />
-        <Howoften onUserInput={handleUserInput} />
-        <Email onUserInput={handleUserInput} />
-        <RoastLevel onUserInput={handleUserInput} />
-        <Method onUserInput={handleUserInput} />
-        <Recommendation onUserInput={handleUserInput} />
-        <Region onUserInput={handleUserInput} />
-        <Flavor onUserInput={handleUserInput} />
+
+      <form onSubmit={handleSubmit}>
+        <Question onUserInput={handleUserInput} value={userInput} currentStep={currentStep} />
+        <button onClick={prevStep}>prev</button>
+        <button onClick={nextStep}>next</button>
       </form>
       <Footer />
     </>
