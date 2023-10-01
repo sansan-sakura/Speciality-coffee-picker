@@ -1,0 +1,15 @@
+.footer {
+  height: 10vh;
+  width: 100%;
+  text-align: center;
+}
+
+.text {
+  font-size: 14px;
+}
+
+.icon {
+  display: inline-block;
+  transform: translateY(1.3px);
+  font-size: 20px;
+}
