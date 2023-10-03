@@ -22,3 +22,8 @@ export type NextFormat = {
     max?: number;
   };
 };
+
+export type IsError = {
+  message: string;
+  error: boolean;
+};

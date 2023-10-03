@@ -113,7 +113,7 @@
     "fieldName": "roast",
     "answerChoice": {
       "choice": true,
-      "answers": ["light", "Light-Medium", "Medium", "Medium-Dark", "Dark"]
+      "answers": ["Light", "Medium", "Medium-Dark"]
     }
   }
 ]

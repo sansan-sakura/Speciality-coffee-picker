@@ -1,9 +1,11 @@
 import { useState } from "react";
-import { Header } from "../../Header/Header";
+import { Header } from "../Header/Header";
 import { Footer } from "../Footer/Footer";
 import { Question } from "../Question";
-import { Form } from "../../types/formType";
+import { Form, IsError } from "../../types/formType";
+import { PickCoffee } from "../PickCoffee/PickCoffee";
 import styles from "./MainForm.module.css";
+
 export function MainForm() {
   const [userInput, setUserInput] = useState<Form>({
     name: "",
@@ -16,9 +18,14 @@ export function MainForm() {
     howOften: "",
   });
 
+  const [error, setError] = useState<IsError>({
+    message: "",
+    error: false,
+  });
+
   const [currentStep, setCurrentStep] = useState(1);
   const nextStep = () => {
-    currentStep < 8 && setCurrentStep((c) => c + 1);
+    currentStep < 10 && setCurrentStep((c) => c + 1);
   };
 
   const prevStep = () => {
@@ -26,7 +33,10 @@ export function MainForm() {
   };
 
   const handleUserInput = (key: string, value: string) => {
+    console.log(value);
+    value === "" ? setError({ message: "Enter", error: true }) : console.log("false");
     setUserInput((prev) => ({ ...prev, [key]: value }));
+    console.log(error);
   };
 
   const handleSubmit = (e: React.SyntheticEvent) => {
@@ -39,11 +49,12 @@ export function MainForm() {
       <div className={styles.form_wrapper}>
         <form onSubmit={handleSubmit} className={styles.form}>
           <Question onUserInput={handleUserInput} value={userInput} currentStep={currentStep} />
-          <div className={styles.btn_box}>
-            <button onClick={prevStep}>prev</button>
-            <button onClick={nextStep}>next</button>
-          </div>
         </form>
+        {currentStep === 9 && <PickCoffee value={userInput} />}
+        <div className={styles.btn_box}>
+          <button onClick={prevStep}>prev</button>
+          <button onClick={nextStep}>next</button>
+        </div>
       </div>
       <Footer />
     </>
