@@ -19,12 +19,14 @@ export const InputField = ({
   };
 
   if (inputType === "email" || inputType === "text") {
+    const valueField = fieldName === "email" ? "email" : "name";
     return (
       <input
         type={inputType}
         onChange={handleInput}
         placeholder={`Enter your ${fieldName}`}
         className={styles.input_text}
+        value={value[valueField]}
       />
     );
   } else if (inputType === "range") {
@@ -43,11 +45,24 @@ export const InputField = ({
       </div>
     );
   } else if (inputType === "radio") {
+    const valueField =
+      fieldName === "roast"
+        ? "roast"
+        : fieldName === "recommendation"
+        ? "recommendation"
+        : "flavor";
     return (
       <div className={`${styles.radio_box} ${fieldName === "roast" ? styles.roast : ""}`}>
         {answers?.map((el) => (
           <div key={el}>
-            <input type="radio" name={fieldName} value={el} onChange={handleInput} id={el} />
+            <input
+              type="radio"
+              name={fieldName}
+              value={el}
+              onChange={handleInput}
+              id={el}
+              checked={value[valueField] === el}
+            />
             <label htmlFor={el}>{el}</label>
           </div>
         ))}
