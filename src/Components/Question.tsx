@@ -7,10 +7,12 @@ export const Question = ({
   value,
   onUserInput,
   currentStep,
+  onCurrentValue,
 }: {
   value: Form;
   onUserInput: (key: string, value: string) => void;
   currentStep: number;
+  onCurrentValue: React.Dispatch<React.SetStateAction<string>>;
 }) => {
   const [askFormat, setAskFormat] = useState<NextFormat>({
     id: 0,
@@ -31,7 +33,12 @@ export const Question = ({
     <>
       <Heading h2={askFormat.h2} text={askFormat.p} />
 
-      <InputField nextFormat={askFormat} value={value} onUserInput={onUserInput} />
+      <InputField
+        nextFormat={askFormat}
+        value={value}
+        onUserInput={onUserInput}
+        onCurrentValue={onCurrentValue}
+      />
     </>
   );
 };

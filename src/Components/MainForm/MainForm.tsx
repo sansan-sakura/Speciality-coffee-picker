@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Header } from "../Header/Header";
 import { Footer } from "../Footer/Footer";
 import { Question } from "../Question";
@@ -7,6 +7,7 @@ import { PickCoffee } from "../PickCoffee/PickCoffee";
 import styles from "./MainForm.module.css";
 
 export function MainForm() {
+  const [currentValue, setCurrentValue] = useState("");
   const [userInput, setUserInput] = useState<Form>({
     name: "",
     email: "",
@@ -24,9 +25,17 @@ export function MainForm() {
   });
 
   const [currentStep, setCurrentStep] = useState(1);
-  const nextStep = () => {
-    currentStep < 10 && setCurrentStep((c) => c + 1);
-  };
+
+  const nextStep = useCallback(() => {
+    if (currentValue === "") {
+      setError({ message: "Write something", error: true });
+      return;
+    } else {
+      setError({ message: "", error: false });
+      currentStep < 10 && setCurrentStep((c) => c + 1);
+      setCurrentValue("");
+    }
+  }, [currentStep, currentValue]);
 
   const prevStep = () => {
     currentStep > 1 && setCurrentStep((c) => c - 1);
@@ -34,7 +43,7 @@ export function MainForm() {
 
   const handleUserInput = (key: string, value: string) => {
     console.log(value);
-    value === "" ? setError({ message: "Enter", error: true }) : console.log("false");
+
     setUserInput((prev) => ({ ...prev, [key]: value }));
     console.log(error);
   };
@@ -43,14 +52,32 @@ export function MainForm() {
     e.preventDefault();
   };
 
+  useEffect(() => {
+    function callBack(e: KeyboardEvent) {
+      if (e.code === "Enter") nextStep();
+    }
+    window.addEventListener("keydown", callBack);
+    return () => {
+      window.removeEventListener("keydown", callBack);
+    };
+  }, [nextStep]);
+
   return (
     <>
       <Header />
       <div className={styles.form_wrapper}>
-        <form onSubmit={handleSubmit} className={styles.form}>
-          <Question onUserInput={handleUserInput} value={userInput} currentStep={currentStep} />
-        </form>
-        {currentStep === 9 && <PickCoffee value={userInput} />}
+        {/* {currentStep < 9 ? (
+          <form onSubmit={handleSubmit} className={styles.form}>
+            <Question
+              onUserInput={handleUserInput}
+              value={userInput}
+              currentStep={currentStep}
+              onCurrentValue={setCurrentValue}
+            />
+          </form>
+        ) : ( */}
+        <PickCoffee value={userInput} />
+        {/* )} */}
         <div className={styles.btn_box}>
           <button onClick={prevStep}>prev</button>
           <button onClick={nextStep}>next</button>

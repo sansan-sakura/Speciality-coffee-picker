@@ -4,10 +4,12 @@ export const InputField = ({
   nextFormat,
   onUserInput,
   value,
+  onCurrentValue,
 }: {
   nextFormat: NextFormat;
   onUserInput: (key: string, value: string) => void;
   value: Form;
+  onCurrentValue: React.Dispatch<React.SetStateAction<string>>;
 }) => {
   const { inputType, fieldName, answerChoice } = nextFormat;
   const answers = answerChoice?.answers;
@@ -16,6 +18,7 @@ export const InputField = ({
     e: React.ChangeEvent<HTMLSelectElement> | React.ChangeEvent<HTMLInputElement>
   ) => {
     onUserInput(fieldName, e.target.value);
+    onCurrentValue(e.target.value);
   };
 
   if (inputType === "email" || inputType === "text") {
@@ -79,6 +82,7 @@ export const InputField = ({
           value={valueField}
           className={styles.select}
         >
+          <option disabled>-- Select --</option>
           {answers?.map((el) => (
             <option value={el} key={el}>
               {el}
