@@ -1,13 +1,14 @@
 import { Form } from "../../types/formType";
 import coffees from "../../coffee.json";
 import { Heading } from "../Heading/Heading";
+import { Card } from "../Card/Card";
 import styles from "./PickCoffee.module.css";
 export const PickCoffee = ({ value }: { value: Form }) => {
-  console.log(value);
-  console.log(coffees);
+  const userName = value.name.charAt(0).toUpperCase() + value.name.slice(1);
   const firstCoffees = coffees.filter((coffee) => coffee.roast_level === value.roast);
 
   let secondCoffees = firstCoffees.filter((coffee) => coffee.processing_method === value.method);
+
   if (secondCoffees.length === 0) {
     secondCoffees = firstCoffees.filter((coffee) => coffee.recommendation === value.recommendation);
     if (secondCoffees.length === 0) {
@@ -21,26 +22,52 @@ export const PickCoffee = ({ value }: { value: Form }) => {
     }
   }
 
-  console.log(firstCoffees, secondCoffees);
+  // Love measure
+  let yourLove;
+  const yourRate = Number(value.howOften);
+  if (yourRate < 5) {
+    yourLove = "You should try good coffee!!";
+  } else if (yourRate >= 5 && yourRate < 10) {
+    yourLove = "You should exprole many kinds of coffee beans  ";
+  } else if (yourRate >= 10 && yourRate < 15) {
+    yourLove = "Enjoy good coffee!!";
+  } else {
+    yourLove = "Have a great moment with a wondoful cup of joe";
+  }
   return (
-    <div>
-      <Heading h2={"Here is your result ☕️"} text={""} />
+    <div className={styles.result_page}>
+      <Heading h2={`Here is ${userName}'s result ☕️`} text={yourLove} />
+
       <div className={styles.input_box}>
-        <h6>Name: {value.name}</h6>
-        <h6>Email: {value.email}</h6>
-        <h6>Level your coffee love: {value.howOften}</h6>
-        <p>Country: {value.region}</p>
-        <p>Flavor: {value.flavor}</p>
-        <p>Process: {value.method}</p>
-        <p>Roast: {value.roast}</p>
-        <p>Method: {value.recommendation}</p>
+        <h3 className={styles.h3}>Your Select</h3>
+        {/* <p className={styles.input_box_title}>
+          <span>Email: </span>
+          {value.email}
+        </p> */}
+        <p className={styles.input_box_title}>
+          <span>Country: </span> {value.region}
+        </p>
+        <p className={styles.input_box_title}>
+          <span>Flavor: </span>
+          {value.flavor}
+        </p>
+        <p className={styles.input_box_title}>
+          <span>Process: </span>
+          {value.method}
+        </p>
+        <p className={styles.input_box_title}>
+          <span>Roast: </span>
+          {value.roast}
+        </p>
+        <p className={styles.input_box_title}>
+          <span>Method: </span>
+          {value.recommendation}
+        </p>
       </div>
+      <h3>Our Choice</h3>
       <div className={styles.result_box}>
         {secondCoffees.map((coffee) => (
-          <>
-            <p>{coffee.name}</p>
-            <p>{coffee.flavor_profile}</p>
-          </>
+          <Card coffee={coffee} />
         ))}
       </div>
     </div>
