@@ -1,9 +1,64 @@
 .card {
+  min-width: 280px;
   padding: 10px 30px;
 }
 .card {
-  border: solid 1px #fff;
+  border: solid 0.5px #fff;
   width: fit-content;
   padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.text_box {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.label,
+.label_flavor {
+  color: #a7a7a7;
+  font-weight: 800;
+  background-image: linear-gradient(to left, #38b2ac, #0bc5ea);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.label_flavor {
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
+
+.name {
+  font-size: 20px;
+  background-image: linear-gradient(to left, #ecc94b, #48bb78);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.name_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.flavor_box {
+  width: 60%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  border: 0.5px solid #fff;
+  padding: 3px 0;
   border-radius: 5px;
+}
+
+.flavor_box p {
+  margin: 0;
+  font-weight: 600;
 }

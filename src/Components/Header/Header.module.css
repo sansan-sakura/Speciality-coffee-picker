@@ -1,8 +1,6 @@
 .header {
   width: 200px;
   margin-left: 20px;
-  padding-top: 50px;
-  padding-bottom: 10px;
 }
 
 .heading {
@@ -12,7 +10,7 @@
 
 .heading span {
   font-size: 4rem;
-  -webkit-text-stroke: purple 2px;
+  /* color: #e66465; */
 }
 
 @media (min-width: 400px) {

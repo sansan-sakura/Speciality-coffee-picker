@@ -102,7 +102,7 @@
     "fieldName": "recommendation",
     "answerChoice": {
       "choice": true,
-      "answers": ["Pour Over", "Drip", "V60", "AeroPress", "Expresso", "Filter", "French Press"]
+      "answers": ["Pour Over", "Drip", "V60", "AeroPress", "Espresso", "Filter", "French Press"]
     }
   },
   {
