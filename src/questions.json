@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "errorMessage": "Please enter a correct email address",
     "h2": "Now, we want to ask your email address 🐠",
     "p": "So we can send you a result to you later 🦄",
     "inputType": "email",
@@ -11,6 +12,7 @@
   },
   {
     "id": 2,
+    "errorMessage": "Please write your name",
     "h2": "Let me ask your name first 📸 ",
     "p": "In order to pick up the best coffee for you, we need your name 🌝",
     "inputType": "text",
@@ -21,6 +23,7 @@
   },
   {
     "id": 3,
+    "errorMessage": "Please choose a number",
     "h2": "How much do you like coffee?",
     "p": "Coffee makes the life perfect ✨",
     "inputType": "range",
@@ -33,6 +36,7 @@
   },
   {
     "id": 4,
+    "errorMessage": "Please choose one",
     "h2": "How about your favorite flavor? 🌸",
     "p": "Coffee is not just a drink!!",
     "inputType": "radio",
@@ -58,6 +62,7 @@
   },
   {
     "id": 5,
+    "errorMessage": "Please choose one of them",
     "h2": "Which method do you like to process your coffee beans? 🐥",
     "p": "It is interesting how different tast you get with different methods of process. ☕️",
     "inputType": "select",
@@ -69,6 +74,7 @@
   },
   {
     "id": 6,
+    "errorMessage": "Please choose one country name",
     "h2": "Which country would you like your coffee beans to be grown?",
     "p": "Please pick up a country below",
     "inputType": "select",
@@ -96,6 +102,7 @@
   },
   {
     "id": 7,
+    "errorMessage": "Please choose one option",
     "h2": "How do you like to ake your coffee? 🌞",
     "p": "ach beans has the best way to make a delicious cup of joe",
     "inputType": "radio",
@@ -107,6 +114,7 @@
   },
   {
     "id": 8,
+    "errorMessage": "Please choose one option",
     "h2": "Let's ask your favorite roast level",
     "p": "If you have never tried light roasted coffee, try it",
     "inputType": "radio",

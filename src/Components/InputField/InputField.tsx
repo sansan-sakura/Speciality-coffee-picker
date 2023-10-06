@@ -12,6 +12,7 @@ export const InputField = ({
   onCurrentValue: React.Dispatch<React.SetStateAction<string>>;
 }) => {
   const { inputType, fieldName, answerChoice } = nextFormat;
+  const _fieldName = fieldName as keyof Form;
   const answers = answerChoice?.answers;
 
   const handleInput = (
@@ -22,14 +23,13 @@ export const InputField = ({
   };
 
   if (inputType === "email" || inputType === "text") {
-    const valueField = fieldName === "email" ? "email" : "name";
     return (
       <input
         type={inputType}
         onChange={handleInput}
         placeholder={`Enter your ${fieldName}`}
         className={styles.input_text}
-        value={value[valueField]}
+        value={value[_fieldName]}
       />
     );
   } else if (inputType === "range") {
@@ -48,12 +48,6 @@ export const InputField = ({
       </div>
     );
   } else if (inputType === "radio") {
-    const valueField =
-      fieldName === "roast"
-        ? "roast"
-        : fieldName === "recommendation"
-        ? "recommendation"
-        : "flavor";
     return (
       <div className={`${styles.radio_box} ${fieldName === "roast" ? styles.roast : ""}`}>
         {answers?.map((el) => (
@@ -64,7 +58,7 @@ export const InputField = ({
               value={el}
               onChange={handleInput}
               id={el}
-              checked={value[valueField] === el}
+              checked={value[_fieldName] === el}
             />
             <label htmlFor={el}>{el}</label>
           </div>
@@ -72,17 +66,16 @@ export const InputField = ({
       </div>
     );
   } else if (inputType === "select") {
-    const valueField = fieldName === "region" ? "region" : "method";
     return (
       <>
         <select
           onChange={handleInput}
           id={fieldName}
           name={fieldName}
-          value={valueField}
+          value={value[_fieldName]}
           className={styles.select}
         >
-          <option disabled>-- Select --</option>
+          <option>-- Select --</option>
           {answers?.map((el) => (
             <option value={el} key={el}>
               {el}

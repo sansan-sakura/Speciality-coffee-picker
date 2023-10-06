@@ -7,6 +7,9 @@
   width: fit-content;
   padding: 20px 40px;
   border-radius: 10px;
+  border-image: linear-gradient(to right, #38b2ac, #0bc5ea);
+
+  border-image-slice: 1;
 }
 
 .text_box {
@@ -48,17 +51,18 @@
 }
 
 .flavor_box {
-  width: 60%;
+  width: 90%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   border: 0.5px solid #fff;
   padding: 3px 0;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 .flavor_box p {
   margin: 0;
   font-weight: 600;
+  font-size: 15px;
 }
