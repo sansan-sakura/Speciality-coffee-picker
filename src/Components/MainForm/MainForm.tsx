@@ -11,8 +11,8 @@ export function MainForm() {
   const [userInput, setUserInput] = useState<Form>({
     name: "",
     email: "",
-    roast: "",
-    method: "",
+    roast: "Light",
+    method: "Washed",
     recommendation: "",
     region: "",
     flavor: "",

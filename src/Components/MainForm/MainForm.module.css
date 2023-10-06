@@ -11,6 +11,14 @@
 }
 
 .btn_box {
+  width: 60%;
   margin: 50px auto;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 1200px) {
+  .btn_box {
+    justify-content: space-evenly;
+  }
 }
