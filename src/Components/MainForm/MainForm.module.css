@@ -14,7 +14,7 @@
   width: 60%;
   margin: 50px auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 @media (min-width: 1200px) {

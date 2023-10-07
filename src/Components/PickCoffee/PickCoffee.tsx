@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import { Form } from "../../types/formType";
 import coffees from "../../coffee.json";
 import { Heading } from "../Heading/Heading";
@@ -5,29 +6,39 @@ import { Card } from "../Card/Card";
 import styles from "./PickCoffee.module.css";
 
 export const PickCoffee = ({ value }: { value: Form }) => {
-  console.log(value);
-  const userName = value.name.charAt(0).toUpperCase() + value.name.slice(1);
-
+  const buttonRef = useRef<null | HTMLDivElement>(null);
+  const userName = value.name
+    .split(" ")
+    .map((name) => {
+      return name.charAt(0).toUpperCase() + name.slice(1);
+    })
+    .join(" ");
+  console.log(userName);
   // Chooing coffee for a user
   const firstCoffees = coffees.filter((coffee) => coffee.roast_level === value.roast);
   let secondCoffees = firstCoffees.filter((coffee) => coffee.processing_method === value.method);
   if (secondCoffees.length > 5) {
     secondCoffees = firstCoffees.filter((coffee) => coffee.recommendation === value.recommendation);
+    if (secondCoffees.length <= 0) {
+      secondCoffees = firstCoffees.filter((coffee) => coffee.processing_method === value.method);
+    }
   }
 
-  console.log(firstCoffees, secondCoffees);
-  // Love measure
   let yourLove;
   const yourRate = Number(value.howOften);
   if (yourRate < 5) {
-    yourLove = "You should try good coffee!!";
+    yourLove = "You should try good coffee 🙌";
   } else if (yourRate >= 5 && yourRate < 10) {
-    yourLove = "You should exprole many kinds of coffee beans  ";
+    yourLove = "You should exprole many kinds of coffee beans 🦋";
   } else if (yourRate >= 10 && yourRate < 15) {
-    yourLove = "Enjoy good coffee!!";
+    yourLove = "Enjoy good coffee ✨";
   } else {
-    yourLove = "Have a great moment with a wondoful cup of joe";
+    yourLove = "Have a great moment with a wonderful cup of joe ⭐️ 🌟";
   }
+
+  const handleClick = () => {
+    buttonRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <div className={styles.result_page}>
@@ -54,10 +65,20 @@ export const PickCoffee = ({ value }: { value: Form }) => {
           {value.recommendation}
         </p>
       </div>
+      <button className={styles.btn_arrow} onClick={handleClick}>
+        &darr;
+      </button>
       <h3 className={styles.h3}>Coffee for you</h3>
       <div
+        ref={buttonRef}
         className={`${styles.result_box} ${
-          secondCoffees.length % 4 === 0 ? styles.grid_four : styles.grid
+          secondCoffees.length % 4 === 0
+            ? styles.grid_four
+            : secondCoffees.length % 3 === 0
+            ? styles.grid_three
+            : secondCoffees.length % 2 === 0
+            ? styles.grid_two
+            : ""
         }`}
       >
         {secondCoffees.map((coffee) => (

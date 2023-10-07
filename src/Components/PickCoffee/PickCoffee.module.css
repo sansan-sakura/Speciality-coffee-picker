@@ -6,15 +6,14 @@
 
 .input_box {
   border: solid 0.5px #fff;
+  border-image: linear-gradient(to right, #ed8936, #ed64a6);
+  border-image-slice: 1;
   min-width: 260px;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
   padding: 20px 30px;
-  border-radius: 10px;
   text-align: center;
   align-self: center;
   transition: all 0.2s;
-  box-shadow: #4e46e5c8 0px 50px 100px 1px, rgba(255, 166, 0, 0.5) 0px 20px 50px 10px,
-    #4e46e5c8 0px -2px 6px 0px inset;
 }
 
 .input_box:hover {
@@ -40,13 +39,12 @@
   transition: color 0.2s ease;
 }
 
-.grid_four {
-  grid-template-columns: repeat(4, 1fr);
+.grid_four,
+.grid_three,
+.grid_two {
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.grid {
-  grid-template-columns: repeat(3, 1fr);
-}
 .result_box {
   width: fit-content;
   margin: 0 auto;
@@ -58,8 +56,32 @@
   font-size: 28px;
 }
 
+.btn_arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  background-image: linear-gradient(to left, #ed8936, #ed64a6);
+  width: 30px;
+  height: 40px;
+  border-radius: 50%;
+  transform: translateY(-30px);
+  transition: transform 0.2s ease;
+}
+
+.btn_arrow:hover {
+  transform: translateY(-28px);
+}
+
 @media (min-width: 768px) {
   .onput_box {
     padding: 20px 40px;
+  }
+  .grid_four {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .grid_three {
+    grid-template-columns: repeat(3, 1fr);
   }
 }

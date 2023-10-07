@@ -11,6 +11,7 @@ export type Form = {
 
 export type NextFormat = {
   id: number;
+  errorMessage: string;
   h2: string;
   p: string;
   inputType: string;

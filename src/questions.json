@@ -1,8 +1,9 @@
 [
   {
     "id": 1,
-    "h2": "Now, we want to ask your email address 🐠",
-    "p": "So we can send you a result to you later 🦄",
+    "errorMessage": "Please enter a correct email address",
+    "h2": "I want to ask your email address 🐠",
+    "p": "",
     "inputType": "email",
     "fieldName": "email",
     "answerChoice": {
@@ -11,7 +12,8 @@
   },
   {
     "id": 2,
-    "h2": "Let me ask your name first 📸 ",
+    "errorMessage": "Please write your name",
+    "h2": "Let me ask your name 📸 ",
     "p": "In order to pick up the best coffee for you, we need your name 🌝",
     "inputType": "text",
     "fieldName": "name",
@@ -21,7 +23,8 @@
   },
   {
     "id": 3,
-    "h2": "How much do you like coffee?",
+    "errorMessage": "Please choose a number",
+    "h2": "How much do you love coffee?",
     "p": "Coffee makes the life perfect ✨",
     "inputType": "range",
     "fieldName": "howOften",
@@ -33,6 +36,7 @@
   },
   {
     "id": 4,
+    "errorMessage": "Please choose one",
     "h2": "How about your favorite flavor? 🌸",
     "p": "Coffee is not just a drink!!",
     "inputType": "radio",
@@ -58,7 +62,8 @@
   },
   {
     "id": 5,
-    "h2": "Which method do you like to process your coffee beans? 🐥",
+    "errorMessage": "Please choose one of them",
+    "h2": "Which process  do you prefer? 🐥",
     "p": "It is interesting how different tast you get with different methods of process. ☕️",
     "inputType": "select",
     "fieldName": "method",
@@ -69,8 +74,9 @@
   },
   {
     "id": 6,
-    "h2": "Which country would you like your coffee beans to be grown?",
-    "p": "Please pick up a country below",
+    "errorMessage": "Please choose one country name",
+    "h2": "Which country is your favorite one for coffee production?",
+    "p": "Ethiopia is the birth place of coffee 🌿",
     "inputType": "select",
     "fieldName": "region",
     "answerChoice": {
@@ -96,8 +102,9 @@
   },
   {
     "id": 7,
-    "h2": "How do you like to ake your coffee? 🌞",
-    "p": "ach beans has the best way to make a delicious cup of joe",
+    "errorMessage": "Please choose one option",
+    "h2": "How do you want to blow your coffee? 🌞",
+    "p": "Coffee beans aren't beans. They are fruit pits.",
     "inputType": "radio",
     "fieldName": "recommendation",
     "answerChoice": {
@@ -107,6 +114,7 @@
   },
   {
     "id": 8,
+    "errorMessage": "Please choose one option",
     "h2": "Let's ask your favorite roast level",
     "p": "If you have never tried light roasted coffee, try it",
     "inputType": "radio",
