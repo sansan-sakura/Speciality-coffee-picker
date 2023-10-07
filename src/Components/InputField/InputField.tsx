@@ -23,11 +23,12 @@ export const InputField = ({
   };
 
   if (inputType === "email" || inputType === "text") {
+    const placeholerWord = inputType === "email" ? "Email" : "Full Name";
     return (
       <input
         type={inputType}
         onChange={handleInput}
-        placeholder={`Enter your ${fieldName}`}
+        placeholder={`Enter Your ${placeholerWord}`}
         className={styles.input_text}
         value={value[_fieldName]}
       />

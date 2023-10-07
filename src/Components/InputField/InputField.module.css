@@ -2,6 +2,10 @@
   font-size: 20px;
   padding: 2px 5px;
 }
+
+input:focus {
+  outline: #f87171 2px solid;
+}
 /* Range input filed */
 .input_range {
   -webkit-appearance: none;

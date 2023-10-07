@@ -7,13 +7,21 @@ import styles from "./PickCoffee.module.css";
 
 export const PickCoffee = ({ value }: { value: Form }) => {
   const buttonRef = useRef<null | HTMLDivElement>(null);
-  const userName = value.name.charAt(0).toUpperCase() + value.name.slice(1);
-
+  const userName = value.name
+    .split(" ")
+    .map((name) => {
+      return name.charAt(0).toUpperCase() + name.slice(1);
+    })
+    .join(" ");
+  console.log(userName);
   // Chooing coffee for a user
   const firstCoffees = coffees.filter((coffee) => coffee.roast_level === value.roast);
   let secondCoffees = firstCoffees.filter((coffee) => coffee.processing_method === value.method);
   if (secondCoffees.length > 5) {
     secondCoffees = firstCoffees.filter((coffee) => coffee.recommendation === value.recommendation);
+    if (secondCoffees.length <= 0) {
+      secondCoffees = firstCoffees.filter((coffee) => coffee.processing_method === value.method);
+    }
   }
 
   let yourLove;
